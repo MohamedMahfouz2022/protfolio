@@ -2,7 +2,7 @@
 function countproject() {
   const cards = document.querySelectorAll(".cards");
   const caunt = document.querySelector(".main-ptn");
-  caunt.textContent = "المشاريع" + "  " + cards.length;
+  caunt.textContent = "Projects" + "  " + cards.length;
 }
 countproject();
 
